@@ -17,14 +17,14 @@ public class Simple extends SherlockActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.simple);
 		
-		PathrabolicView a = (PathrabolicView) findViewById(R.id.pbv);
+//		PathrabolicView a = (PathrabolicView) findViewById(R.id.pbv);
 		LinkedHashMap<Integer, String> map = new LinkedHashMap<Integer, String>();
 		map.put(0, "first entry");
 		map.put(1, "another button");
 		map.put(2, "yet another button");
 		
 		
-		a.init(map);
+//		a.init(map);
 	}
 
 }
